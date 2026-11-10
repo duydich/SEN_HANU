@@ -1,0 +1,14 @@
+students
+12
+employees
+12
+companies
+6
+jobs
+6
+id	name	age
+1	Lương Quốc Duy	19
+username	role
+admin	ADMIN
+user	USER
+browser_16721171	USER

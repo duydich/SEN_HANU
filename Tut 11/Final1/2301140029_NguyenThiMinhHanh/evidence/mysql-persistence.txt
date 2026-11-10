@@ -1,0 +1,14 @@
+students
+12
+employees
+12
+companies
+6
+jobs
+6
+id	name	age
+1	Nguyễn Thị Minh Hạnh	25
+username	role
+admin	ADMIN
+user	USER
+browser_16841794	USER

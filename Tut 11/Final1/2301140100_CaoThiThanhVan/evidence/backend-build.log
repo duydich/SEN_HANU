@@ -1,0 +1,106 @@
+[INFO] Scanning for projects...
+[INFO] Loaded 24436 auto-discovered prefixes for remote repository central (prefixes-central.txt)
+[INFO] 
+[INFO] --------------------< com.example:tut11-2301140100 >--------------------
+[INFO] Building Tutorial 11 - Cao Th? Thanh Vân 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ tut11-2301140100 ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ tut11-2301140100 ---
+[INFO] Loaded 64 auto-discovered prefixes for remote repository apache.snapshots (prefixes-apache.snapshots.txt)
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 24 source files with javac [debug parameters release 21] to target\classes
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ tut11-2301140100 ---
+[INFO] skip non existing resourceDirectory D:\SEN\Tut 11\Final1\2301140100_CaoThiThanhVan\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ tut11-2301140100 ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 21] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.5.6:test (default-test) @ tut11-2301140100 ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.example.demo.ApiIntegrationTest
+20:19:09.426 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.demo.ApiIntegrationTest]: ApiIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:19:09.556 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.ApiIntegrationTest
+20:19:09.645 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.demo.ApiIntegrationTest]: ApiIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:19:09.647 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.ApiIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.2)
+
+2026-11-10T20:19:09.911+07:00  INFO 10492 --- [tut11-2301140100] [           main] com.example.demo.ApiIntegrationTest      : Starting ApiIntegrationTest using Java 27 with PID 10492 (started by ASUS in D:\SEN\Tut 11\Final1\2301140100_CaoThiThanhVan\backend)
+2026-11-10T20:19:09.913+07:00  INFO 10492 --- [tut11-2301140100] [           main] com.example.demo.ApiIntegrationTest      : No active profile set, falling back to 1 default profile: "default"
+2026-11-10T20:19:10.646+07:00  INFO 10492 --- [tut11-2301140100] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-10T20:19:10.695+07:00  INFO 10492 --- [tut11-2301140100] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 5 JPA repository interfaces.
+2026-11-10T20:19:11.178+07:00  INFO 10492 --- [tut11-2301140100] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 0 (http)
+2026-11-10T20:19:11.188+07:00  INFO 10492 --- [tut11-2301140100] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-10T20:19:11.189+07:00  INFO 10492 --- [tut11-2301140100] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-10T20:19:11.223+07:00  INFO 10492 --- [tut11-2301140100] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1289 ms
+2026-11-10T20:19:11.382+07:00  INFO 10492 --- [tut11-2301140100] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-10T20:19:11.418+07:00  INFO 10492 --- [tut11-2301140100] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-11-10T20:19:11.713+07:00  INFO 10492 --- [tut11-2301140100] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-10T20:19:11.735+07:00  INFO 10492 --- [tut11-2301140100] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-10T20:19:11.852+07:00  INFO 10492 --- [tut11-2301140100] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:tut11 user=SA
+2026-11-10T20:19:11.854+07:00  INFO 10492 --- [tut11-2301140100] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-10T20:19:11.897+07:00  INFO 10492 --- [tut11-2301140100] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:tut11]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: TUT11/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-10T20:19:12.551+07:00  INFO 10492 --- [tut11-2301140100] [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-10T20:19:12.590+07:00  INFO 10492 --- [tut11-2301140100] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-10T20:19:12.650+07:00  INFO 10492 --- [tut11-2301140100] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-10T20:19:13.004+07:00  INFO 10492 --- [tut11-2301140100] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-11-10T20:19:13.353+07:00  INFO 10492 --- [tut11-2301140100] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 61637 (http) with context path '/'
+2026-11-10T20:19:13.359+07:00  INFO 10492 --- [tut11-2301140100] [           main] com.example.demo.ApiIntegrationTest      : Started ApiIntegrationTest in 3.661 seconds (process running for 4.632)
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+WARNING: A Java agent has been loaded dynamically (D:\SEN\tmp\m2\net\bytebuddy\byte-buddy-agent\1.18.15\byte-buddy-agent-1.18.15.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+2026-11-10T20:19:14.109+07:00  INFO 10492 --- [tut11-2301140100] [1-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-10T20:19:14.109+07:00  INFO 10492 --- [tut11-2301140100] [1-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-10T20:19:14.111+07:00  INFO 10492 --- [tut11-2301140100] [1-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.349 s -- in com.example.demo.ApiIntegrationTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.5.1:jar (default-jar) @ tut11-2301140100 ---
+[INFO] Building jar: D:\SEN\Tut 11\Final1\2301140100_CaoThiThanhVan\backend\target\tut11-2301140100-1.0.0.jar
+[INFO] 
+[INFO] --- spring-boot:4.1.2:repackage (repackage) @ tut11-2301140100 ---
+[INFO] Loaded 50 auto-discovered prefixes for remote repository ow2-snapshot (prefixes-ow2-snapshot.txt)
+[INFO] Replacing main artifact D:\SEN\Tut 11\Final1\2301140100_CaoThiThanhVan\backend\target\tut11-2301140100-1.0.0.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to D:\SEN\Tut 11\Final1\2301140100_CaoThiThanhVan\backend\target\tut11-2301140100-1.0.0.jar.original
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.740 s
+[INFO] Finished at: 2026-11-10T20:19:17+07:00
+[INFO] ------------------------------------------------------------------------

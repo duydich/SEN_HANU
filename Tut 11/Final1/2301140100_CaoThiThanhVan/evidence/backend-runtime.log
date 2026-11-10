@@ -1,0 +1,45 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.2)
+
+2026-11-10T20:19:25.622+07:00  INFO 6588 --- [tut11-2301140100] [           main] com.example.demo.DemoApplication         : Starting DemoApplication v1.0.0 using Java 27 with PID 6588 (D:\SEN\Tut 11\Final1\2301140100_CaoThiThanhVan\backend\target\tut11-2301140100-1.0.0.jar started by ASUS in D:\SEN\Tut 11\Final1\2301140100_CaoThiThanhVan\backend)
+2026-11-10T20:19:25.627+07:00  INFO 6588 --- [tut11-2301140100] [           main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-11-10T20:19:26.208+07:00  INFO 6588 --- [tut11-2301140100] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-10T20:19:26.254+07:00  INFO 6588 --- [tut11-2301140100] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 5 JPA repository interfaces.
+2026-11-10T20:19:26.761+07:00  INFO 6588 --- [tut11-2301140100] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 18080 (http)
+2026-11-10T20:19:26.774+07:00  INFO 6588 --- [tut11-2301140100] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-10T20:19:26.774+07:00  INFO 6588 --- [tut11-2301140100] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-10T20:19:26.803+07:00  INFO 6588 --- [tut11-2301140100] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1132 ms
+2026-11-10T20:19:26.976+07:00  INFO 6588 --- [tut11-2301140100] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-10T20:19:27.024+07:00  INFO 6588 --- [tut11-2301140100] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-11-10T20:19:27.314+07:00  INFO 6588 --- [tut11-2301140100] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-10T20:19:27.333+07:00  INFO 6588 --- [tut11-2301140100] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-10T20:19:27.440+07:00  INFO 6588 --- [tut11-2301140100] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20f63ddc
+2026-11-10T20:19:27.441+07:00  INFO 6588 --- [tut11-2301140100] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-10T20:19:27.490+07:00  INFO 6588 --- [tut11-2301140100] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://127.0.0.1:13306/verification_2301140100?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: verification_2301140100/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-10T20:19:28.122+07:00  INFO 6588 --- [tut11-2301140100] [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-10T20:19:28.173+07:00  INFO 6588 --- [tut11-2301140100] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-10T20:19:28.228+07:00  INFO 6588 --- [tut11-2301140100] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-10T20:19:28.528+07:00  INFO 6588 --- [tut11-2301140100] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-11-10T20:19:28.879+07:00  INFO 6588 --- [tut11-2301140100] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 18080 (http) with context path '/'
+2026-11-10T20:19:28.888+07:00  INFO 6588 --- [tut11-2301140100] [           main] com.example.demo.DemoApplication         : Started DemoApplication in 3.609 seconds (process running for 4.021)
+2026-11-10T20:19:29.405+07:00  INFO 6588 --- [tut11-2301140100] [.1-18080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-10T20:19:29.406+07:00  INFO 6588 --- [tut11-2301140100] [.1-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-10T20:19:29.407+07:00  INFO 6588 --- [tut11-2301140100] [.1-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
